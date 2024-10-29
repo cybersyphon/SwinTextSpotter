@@ -218,7 +218,9 @@ setup(
         "future",  # used by caffe2
         "pydot",  # used to save caffe2 SVGs
         "dataclasses; python_version<'3.7'",
-        "omegaconf==2.1.0.dev22",
+        "omegaconf==2.1.1",
+        "editdistance"
+        "rapidfuzz==1.9.1"
         # When adding to the list, may need to update docs/requirements.txt
         # or add mock in docs/conf.py
     ],
