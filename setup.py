@@ -202,7 +202,7 @@ setup(
         # opencv themselves, preferrably by OS's package manager, or by
         # choosing the proper pypi package name at https://github.com/skvark/opencv-python
         "termcolor>=1.1",
-        "Pillow>=7.1",  # or use pillow-simd for better performance
+        "Pillow==7.1",  # or use pillow-simd for better performance
         "yacs>=0.1.6",
         "tabulate",
         "cloudpickle",
@@ -219,8 +219,8 @@ setup(
         "pydot",  # used to save caffe2 SVGs
         "dataclasses; python_version<'3.7'",
         "omegaconf==2.1.1",
-        "editdistance"
-        "rapidfuzz==1.9.1"
+        "editdistance",
+        "rapidfuzz==1.9.1",
         # When adding to the list, may need to update docs/requirements.txt
         # or add mock in docs/conf.py
     ],
